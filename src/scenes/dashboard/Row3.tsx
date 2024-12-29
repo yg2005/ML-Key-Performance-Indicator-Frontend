@@ -4,12 +4,12 @@ import FlexBetween from '@/components/FlexBetween';
 import { useGetKpisQuery, useGetProductsQuery, useGetTransationsQuery } from '@/state/api';
 import { Box, Typography, useTheme } from '@mui/material';
 import { DataGrid, GridCellParams } from '@mui/x-data-grid';
-import React, { useMemo } from 'react';
+import { useMemo } from 'react';
 import { Cell, Pie, PieChart, Tooltip } from 'recharts';
 
-type Props = {}
 
-const Row3 = (props: Props) => {
+
+const Row3 = () => {
   const { data: transactionData } = useGetTransationsQuery();
   const { data: productData } = useGetProductsQuery();
   const { data: kpiData } = useGetKpisQuery();

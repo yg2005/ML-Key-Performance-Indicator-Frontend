@@ -3,8 +3,8 @@ import DashboardBox from '@/components/DashboardBox';
 import FlexBetween from '@/components/FlexBetween';
 import { useGetKpisQuery, useGetProductsQuery } from '@/state/api';
 import { Box, Typography, useTheme } from '@mui/material';
-import React, { useMemo } from 'react';
-import { CartesianGrid, Cell, Legend, Line, LineChart, Pie, PieChart, ResponsiveContainer, Scatter, ScatterChart, Tooltip, XAxis, YAxis, ZAxis } from 'recharts';
+import { useMemo } from 'react';
+import { CartesianGrid, Cell, Line, LineChart, Pie, PieChart, ResponsiveContainer, Scatter, ScatterChart, Tooltip, XAxis, YAxis, ZAxis } from 'recharts';
 
 const pieData = [
   { name: 'Group A', value: 600 },

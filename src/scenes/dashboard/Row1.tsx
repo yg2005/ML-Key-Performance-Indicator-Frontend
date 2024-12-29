@@ -2,10 +2,8 @@ import BoxHeader from '@/components/BoxHeader';
 import DashboardBox from '@/components/DashboardBox'
 import { useGetKpisQuery } from '@/state/api';
 import { useTheme } from '@mui/material';
-import React, { useMemo } from 'react'
+import { useMemo } from 'react'
 import { AreaChart, ResponsiveContainer, Line, XAxis, YAxis, Tooltip, Area, CartesianGrid, Legend, LineChart, BarChart, Bar } from 'recharts';
-
-type Props = {}
 
 const Row1 = () => {
   const { palette } = useTheme();
