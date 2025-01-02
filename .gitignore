@@ -10,7 +10,10 @@ lerna-debug.log*
 node_modules
 dist
 dist-ssr
+
+# Local environment files
 *.local
+.env   # Add this line to ignore .env files
 
 # Editor directories and files
 .vscode/*
